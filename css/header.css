@@ -1,0 +1,147 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    width: 1400px;
+}
+
+.header {
+    background-color: #000;
+    padding: 20px 0px;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+}
+
+.header_container a {
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+.logo {
+    width: 70px;
+}
+
+.menu {
+    color: #fff;
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu_item {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.menu_item:last-child {
+    margin-right: 10px;
+}
+
+.top {}
+
+.top_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, .50) url("../img/background_image.jpg");
+    background-blend-mode: darken;
+}
+
+.description {
+    width: 500px;
+}
+
+.description_logo {
+    margin-bottom: 30px;
+}
+
+.description_title {
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.description_text {
+    font-size: 16px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.438;
+}
+
+.description_button {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.2;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+}
+
+.form {
+    width: 360px;
+    font-family: sans-serif;
+}
+
+.top_form_input {
+    width: 30%;
+}
+
+.orange_button {
+    width: 100%;
+    background-color: #ffa500;
+    text-justify: center;
+}
+
+.top-form .big {
+    color: #ffa500;
+    text-transform: uppercase;
+}
+
+.social_left {
+    display: inline-block;
+    width: 600px;
+    text-align: left;
+}
+
+.social_right {
+    display: inline-block;
+}
+
+.social_h3 {
+    font-size: 20px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: 700;
+    margin-left: 150px;
+    margin-bottom: -10px;
+}
+
+.social_text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-left: 150px;
+}
+
+.social_right i {
+    font-size: 48px;
+    color: #cccccc;
+    margin-right: 60px;
+}
