@@ -1,11 +1,7 @@
 .social_left {
     display: inline-block;
-    width: 600px;
+    width: 380px;
     text-align: left;
-}
-
-.social_right {
-    display: inline-block;
 }
 
 .social_h3 {
@@ -13,7 +9,6 @@
     color: #333333;
     font-family: "Open Sans";
     font-weight: 700;
-    margin-left: 150px;
     margin-bottom: -10px;
 }
 
@@ -23,11 +18,19 @@
     color: #86878b;
     font-family: "Open Sans";
     font-weight: 400;
-    margin-left: 150px;
 }
 
-.social_right i {
+.social_right {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.gray_icons {
     font-size: 48px;
     color: #cccccc;
-    margin-right: 60px;
+    margin-right: 55px;
+}
+
+.gray_icons:last-child {
+    margin-right: 0;
 }
