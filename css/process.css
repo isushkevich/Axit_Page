@@ -9,17 +9,17 @@
     margin-bottom: 100px;
 }
 
-.orange_line_center {
-    border-top: 1px solid #ffa500;
-    width: 65px;
-    margin: -10px auto 20px;
-}
-
 .main_header {
     font-family: "Raleway", sans-serif;
     font-size: 36px;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+.orange_line_center {
+    border-top: 1px solid #ffa500;
+    width: 65px;
+    margin: -10px auto 20px;
 }
 
 .subheader {

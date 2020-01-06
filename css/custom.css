@@ -1,3 +1,21 @@
 .custom {
     height: 315px;
+    background-image: url(../img/background_image_2.png);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.main_header_white {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.white_line_center {
+    border-top: 1px solid #fff;
+    width: 65px;
+    margin: -10px auto 20px;
 }
