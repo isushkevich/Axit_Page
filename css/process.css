@@ -1,0 +1,43 @@
+.process {
+    height: 595px;
+    display: flex;
+    align-items: center;
+}
+
+.centered_block {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.orange_line_center {
+    border-top: 1px solid #ffa500;
+    width: 65px;
+    margin: -10px auto 20px;
+}
+
+.main_header {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.subheader {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.grey_text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.small_block {
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+}

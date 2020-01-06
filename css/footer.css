@@ -1,0 +1,30 @@
+.footer {
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer_container {
+    text-align: center;
+}
+
+.social_footer {}
+
+.gray_icons_footer {
+    font-size: 24px;
+    color: #cccccc;
+    margin-right: 30px;
+}
+
+.gray_icons_footer:last-child {
+    margin-right: 0px;
+}
+
+.footer_text {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 400;
+    opacity: 0.5;
+}

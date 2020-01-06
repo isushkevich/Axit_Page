@@ -64,7 +64,7 @@ a {
 .header_container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .description {
@@ -84,7 +84,7 @@ a {
     font-weight: 400;
 }
 
-.white_line {
+.white_line_left {
     border-top: 1px solid #fff;
     width: 65px;
     margin: 25px 0 35px;
@@ -110,8 +110,10 @@ a {
 
 .form {
     width: 360px;
+    height: 360px;
     font-family: sans-serif;
     background-color: #fff;
+    border-radius: 3px;
 }
 
 .gray_background {
@@ -133,10 +135,16 @@ a {
 
 .top_form_input {
     width: 30%;
+    display: block;
 }
 
 .orange_button {
     width: 100%;
     background-color: #ffa500;
     text-justify: center;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Open Sans";
+    font-weight: 400;
 }
