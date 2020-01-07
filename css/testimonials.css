@@ -39,7 +39,7 @@
 .triangle {
     border-color: transparent;
     border-top-width: 100px;
-    border-top-color: brown;
+    border-top-color: #f5f5f5;
 }
 
 .testimonials_quote img {

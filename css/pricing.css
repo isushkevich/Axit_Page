@@ -1,4 +1,110 @@
 .pricing {
     height: 885px;
     background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pricing_container {}
+
+.pricing_centered_block {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing_columns {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.pricing_column {
+    width: 345px;
+}
+
+.pricing_header {
+    text-align: center;
+    height: 60px;
+    background-color: #333333;
+    border-bottom: 1px solid #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+.pricing_big {
+    text-align: center;
+    height: 100px;
+    background-color: #333333;
+    border-bottom: 1px solid #f5f5f5;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 80px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 700;
+}
+
+.pricing_big p {
+    margin: 0 auto;
+}
+
+.usd {
+    font-size: 25px;
+}
+
+.pricing_italic {
+    height: 50px;
+    background-color: #333333;
+    border-bottom: 5px solid #FF9947;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #86878b;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: italic;
+}
+
+.nobottom {
+    border-bottom: none;
+}
+
+.pricing_simple {
+    height: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #86878b;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.popular {
+    height: 40px;
+    background-color: #FF9947;
+    border-bottom: 1px solid #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-transform: uppercase;
 }
