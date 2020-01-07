@@ -151,14 +151,27 @@
         </div>
 
         <div class="contact">
-            <div class="container contact_container">
-                <div>
+            <div class="container">
+                <div class="contact_top">
                     <h1 class="main_header">Contact us</h1>
                     <hr class="orange_line_center">
                     <p class="grey_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div class="form_2"></div>
-                <input type="button" class="orange_button_small" value="Send Message">
+                <form action="#">
+                    <div class="contact_form_inputs">
+                        <div class="contact_form_left">
+                            <div><input placeholder="Name" type="text" class="contact_form_input"></div>
+                            <div><input placeholder="Email" type="text" class="contact_form_input"></div>
+                            <div><input placeholder="Subject" type="text" class="contact_form_input"></div>
+                        </div>
+                        <div class="contact_form_right">
+                            <textarea class="contact_form_text" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="submit" class="orange_button_small" value="Send Message">
+                    </div>
+                </form>
             </div>
         </div>
 
