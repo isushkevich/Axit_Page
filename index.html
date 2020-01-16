@@ -18,11 +18,12 @@
 </head>
 
 <body>
+
     <div class="navbar">
         <div class="navbar_container container">
             <a href="#">
                 <img class="logo" src="img/logo.png" alt="axit"></a>
-            <ul class="menu">
+            <ul class="menu" id="menu">
                 <li class="menu_item">
                     <a class="navbar_a" href="#features">Features</a>
                 </li>
@@ -39,9 +40,15 @@
                     <a class="navbar_a" href="#preview">Contact</a>
                 </li>
             </ul>
+
+            <div class="burger" id="burger">
+                <span class="burger_line">
+                    
+                </span>
+            </div>
         </div>
     </div>
-
+    <section class="bg" id="bg"></section>
     <div class="header">
         <div class="container header_container">
             <div class="description">
@@ -66,7 +73,7 @@
                         <input placeholder="Name" type="text" class="top-form_input">
                     </div>
                     <div>
-                        <input placeholder="Email" type="text" class="top-form_input">
+                        <input placeholder="Email" type="email" class="top-form_input">
                     </div>
                     <div>
                         <input placeholder="Password" type="Password" class="top-form_input">
@@ -349,6 +356,8 @@
             </div>
         </div>
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
