@@ -1,14 +1,35 @@
 .testimonials {
-    /* height: 595px; */
     padding: 135px 0;
     display: flex;
     align-items: center;
-    text-align: center;
 }
 
 .testimonials_centered_block {
     text-align: center;
     margin-bottom: 50px;
+}
+
+.main_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.main_title::after {
+    content: "";
+    border-top: 1px solid #FF9947;
+    width: 65px;
+    display: block;
+    margin: 20px auto;
+}
+
+.small_grey_text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    font-weight: 400;
 }
 
 .testimonials_quotes {
@@ -17,16 +38,11 @@
     justify-content: space-between;
 }
 
-.testimonials_column {
-    width: 30%;
-    display: inline-block;
-}
-
 .testimonials_quote {
     background-color: #f5f5f5;
     text-align: left;
     border-radius: 3px;
-    padding: 20px;
+    padding: 25px 15px;
     margin-bottom: 20px;
 }
 
@@ -39,21 +55,14 @@
     margin: 0;
 }
 
-.triangle {
-    border-color: transparent;
-    border-top-width: 100px;
-    border-top-color: #f5f5f5;
+.avatar_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
-.testimonials_quote img {
-    display: inline-block;
-}
-
-.name_container {
-    display: inline-block;
-    margin-left: 15px;
-    position: relative;
-    top: -10px;
+.avatar_container_img {
+    margin-right: 15px;
 }
 
 .testimonials_name {
@@ -61,7 +70,8 @@
     color: #333333;
     font-family: "Open Sans";
     font-weight: 700;
-    margin-top: 0;
+    margin: 0 0 5px 0;
+    text-align: left;
 }
 
 .testimonials_job {
@@ -69,14 +79,11 @@
     color: #86878b;
     font-family: "Open Sans";
     font-weight: 400;
+    margin: 0;
+    text-align: left;
 }
 
-.slider {}
-
 .slide {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     outline: none;
-    margin: 0 20px;
+    margin: 0 40px;
 }
