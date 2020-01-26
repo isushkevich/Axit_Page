@@ -4,15 +4,16 @@
     align-items: center;
 }
 
-.column_containter {
+.column_container {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
 }
 
 .small_block {
     text-align: center;
-    width: 33%;
-    display: inline-block;
+    width: 30%;
+    margin: 0 auto;
 }
 
 .centered_block {
@@ -38,5 +39,4 @@
     font-size: 14px;
     color: #86878b;
     font-weight: 400;
-    margin: 10px;
 }
