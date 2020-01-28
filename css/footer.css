@@ -1,15 +1,14 @@
 .footer {
-    height: 100px;
+    padding: 10px 0;
     background-color: #000;
     display: flex;
     align-items: flex-end;
-}
-
-.footer_container {
     text-align: center;
 }
 
-.social_footer {}
+.social_footer {
+    margin-top: 20px;
+}
 
 .gray_icons_footer {
     font-size: 24px;
@@ -27,4 +26,8 @@
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     opacity: 0.5;
+}
+
+.footer_text p {
+    margin-bottom: 0;
 }

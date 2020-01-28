@@ -1,37 +1,32 @@
 .process {
-    height: 595px;
+    padding: 135px 0;
     display: flex;
     align-items: center;
-}
-
-.column_container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.small_block {
-    text-align: center;
-    width: 30%;
-    margin: 0 auto;
 }
 
 .centered_block {
     text-align: center;
     margin-bottom: 100px;
+    margin: 0 10px;
 }
 
-.main_header {
-    font-family: "Raleway", sans-serif;
-    font-size: 36px;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.orange_line_center {
+.main_title::after {
+    content: "";
     border-top: 1px solid #FF9947;
     width: 65px;
-    margin: -10px auto 20px;
+    display: block;
+    margin: 20px auto;
+}
+
+.column_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.small_block {
+    text-align: center;
+    width: 30%;
 }
 
 .grey_text {
