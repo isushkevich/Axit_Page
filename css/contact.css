@@ -1,7 +1,4 @@
 .contact {
-    padding: 135px 0;
-    display: flex;
-    align-items: center;
     text-align: center;
 }
 
@@ -45,7 +42,7 @@
 }
 
 .contact_form_text {
-    height: 140px;
+    height: 142px;
     width: 500px;
     padding: 0;
     outline: none;

@@ -1,13 +1,11 @@
 .process {
-    padding: 135px 0;
     display: flex;
     align-items: center;
 }
 
 .centered_block {
     text-align: center;
-    margin-bottom: 100px;
-    margin: 0 10px;
+    margin: 0 0 80px;
 }
 
 .main_title::after {

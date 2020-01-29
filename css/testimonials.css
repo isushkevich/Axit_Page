@@ -1,7 +1,6 @@
 .testimonials {
-    padding: 135px 0;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
 .testimonials_centered_block {
@@ -25,9 +24,9 @@
 }
 
 .testimonials_quotes {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 .testimonials_quote {

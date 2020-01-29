@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 950px;
+    }
+    .social {
+        display: block;
+        text-align: center;
+    }
+    .social_left {
+        width: 380px;
+        text-align: center;
+        margin: 0 auto 10px;
+    }
+    .pricing_column {
+        width: 300px;
+    }
+}
+
+
+/* @media only screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        background-color: red;
+    }
+} */
