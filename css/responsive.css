@@ -24,38 +24,55 @@
     .custom_description_text {
         margin: 16px 30px 30px;
     }
-    .contact_form_inputs {
-        flex-direction: column;
-        align-items: center;
-    }
-    .contact_form_text {
-        margin-top: 15px;
+    .testimonials_quote:after {
+        content: "";
+        display: inline-block;
+        border: 15px solid transparent;
+        border-top-color: #f5f5f5;
+        position: absolute;
+        top: 105px;
     }
 }
 
+.contact_form_inputs {
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_form_text {
+    margin-top: 15px;
+}
+
+
+}
 
 /* 768px to 992px */
-
 @media (max-width: 992px) {
     .container {
         width: 768px;
     }
+    
     .header {
         padding: 50px 0;
     }
+    
     .header_container {
         flex-direction: column;
         align-items: center;
     }
+    
     .description {
         text-align: center;
     }
+    
     .description_title::after {
         margin: 30px auto;
     }
+    
     .form {
         margin-top: 50px;
     }
+    
     .features,
     .process,
     .pricing,
@@ -63,40 +80,54 @@
     .contact {
         padding: 50px 0;
     }
+    
     .column_container {
         flex-direction: column;
         align-items: center;
     }
+    
     .small_block {
         width: 80%;
         margin-bottom: 50px;
     }
+    
     .small_block:last-child {
         margin-bottom: 0;
     }
+    
     .pricing_columns {
         align-items: center;
         flex-direction: column;
     }
+    
     .pricing_column {
         width: 80%;
         margin-bottom: 40px;
     }
+    
     .pricing_column:last-child {
         margin-bottom: 0;
     }
 }
 
-
 /* 576px to 768px */
-
 @media (max-width: 768px) {
     .container {
         width: 576px;
     }
+    
     .gray_icons {
         font-size: 24px;
         color: #cccccc;
         margin-right: 30px;
+    }
+    
+    .testimonials_quote:after {
+        content: "";
+        display: inline-block;
+        border: 15px solid transparent;
+        border-top-color: #f5f5f5;
+        position: absolute;
+        top: 105px;
     }
 }
