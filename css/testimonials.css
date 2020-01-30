@@ -92,3 +92,8 @@
 .slick-next:before {
     color: #86878b;
 }
+
+.slick-prev:before,
+.slick-next:before {
+    color: #86878b;
+}
