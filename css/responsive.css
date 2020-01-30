@@ -1,36 +1,102 @@
-@media only screen and (max-width: 1200px) {
+/* 992px to 1200px */
+
+@media (max-width: 1200px) {
     .container {
         width: 950px;
     }
     .social {
-        display: block;
-        text-align: center;
+        flex-direction: column;
+        align-items: center;
     }
     .social_left {
-        width: 380px;
         text-align: center;
         margin: 0 auto 10px;
     }
     .pricing_column {
         width: 300px;
     }
-}
-
-
-/* @media only screen and (max-width: 992px) {
-    body {
-        background-color: blue;
+    .slick-prev {
+        left: 0px;
+    }
+    .slick-next {
+        right: 0px;
+    }
+    .description_text {
+        margin: 16px 30px 30px;
+    }
+    .contact_form_inputs {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact_form_text {
+        margin-top: 15px;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    body {
-        background-color: green;
+
+/* 768px to 992px */
+
+@media (max-width: 992px) {
+    .container {
+        width: 768px;
+    }
+    .header {
+        padding: 50px 0;
+    }
+    .header_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .description {
+        text-align: center;
+    }
+    .description_title::after {
+        margin: 30px auto;
+    }
+    .form {
+        margin-top: 50px;
+    }
+    .features,
+    .process,
+    .pricing,
+    .testimonials,
+    .contact {
+        padding: 50px 0;
+    }
+    .column_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .small_block {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .small_block:last-child {
+        margin-bottom: 0;
+    }
+    .pricing_columns {
+        align-items: center;
+        flex-direction: column;
+    }
+    .pricing_column {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .pricing_column:last-child {
+        margin-bottom: 0;
     }
 }
 
-@media only screen and (max-width: 576px) {
-    body {
-        background-color: red;
+
+/* 576px to 768px */
+
+@media (max-width: 768px) {
+    .container {
+        width: 576px;
     }
-} */
+    .gray_icons {
+        font-size: 24px;
+        color: #cccccc;
+        margin-right: 30px;
+    }
+}

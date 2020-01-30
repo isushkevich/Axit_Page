@@ -1,8 +1,8 @@
 .custom {
     padding: 60px 0;
     background-image: url(../img/background_image_2.png);
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     text-align: center;
 }
 
