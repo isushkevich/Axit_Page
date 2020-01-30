@@ -129,16 +129,18 @@ a {
     background-color: #fff;
     border-radius: 3px;
     text-align: center;
+    overflow: hidden;
 }
 
-.top-form {
+
+/* .top-form {
     border-radius: 3px;
-}
+} */
 
 .gray_background {
     background-color: #f5f5f5;
     padding: 15px 0;
-    border-radius: 3px;
+    /* border-radius: 3px; */
 }
 
 .top-form_title {
@@ -165,9 +167,6 @@ a {
     color: #bdbdbd;
     border: none;
     border-bottom: 1px solid #bdbdbd;
-}
-
-.top-form_input {
     margin: 25px;
 }
 
@@ -193,7 +192,7 @@ a {
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    border-radius: 0 0 3px 3px;
+    /* border-radius: 0 0 3px 3px; */
 }
 
 .orange_button:hover {
